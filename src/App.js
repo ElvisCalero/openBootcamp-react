@@ -1,6 +1,5 @@
 import logo from './logo.svg';
 import './App.css';
-import GreetingStyled from './components/pure/greetingStyled';
 // import Greeting from './components/pure/Greeting';
 // import GreetingF from './components/pure/GreetingF';
 // import TaskListComponent from './components/containers/task_list';
@@ -9,7 +8,8 @@ import GreetingStyled from './components/pure/greetingStyled';
 // import Ejemplo2 from './hooks/Ejemplo2';
 // import ComponentWithContext from './hooks/Ejemplo3';
 // import Ejemplo4 from './hooks/Ejemplo4';
-
+//import GreetingStyled from './components/pure/greetingStyled';
+import Clock from './components/pure/Clock';
 
 function App() {
   return (
@@ -25,7 +25,8 @@ function App() {
         {/* <Ejemplo4 name="Elvis">
           <h3>Contenido del props.children</h3>
         </Ejemplo4> */}
-        <GreetingStyled name="Elvis"></GreetingStyled>
+        {/* <GreetingStyled name="Elvis"></GreetingStyled> */}
+        <Clock></Clock>
         <a
           className="App-link"
           href="https://reactjs.org"
